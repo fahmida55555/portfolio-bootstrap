@@ -1,0 +1,666 @@
+*body {
+		font-family: 'Lato', sans-serif
+}
+
+/*Banner and Navbar section*/
+
+.banner {
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../image/banner-bg.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.banner .row {
+	min-height: 600px;
+}
+
+.navbar .navbar-brand {
+	color: #fff;
+}
+
+.navbar .nav-item {
+	padding: 1.4rem .50rem;
+	box-sizing: content-box;
+	letter-spacing: 1px;
+}
+
+.navbar .nav-item .nav-link {
+	color: #FFC794;
+	text-transform: uppercase;
+}
+.navbar .nav-item.active .nav-link {
+	color: #fff;
+}
+
+.navbar .nav-item .nav-link:hover {
+	color: #fff;
+}
+
+.hero-text {
+	text-align: center;
+	margin-bottom: 12%;
+}
+
+.hero-text h1 {
+	font-size: 50px;
+	font-weight: 300; 
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.hero-text .blueline {
+	height: 2px;
+    background: #ff6d6d;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 1%;
+    line-height: 0.8;
+
+}
+
+
+.hero-text p {
+	color: #fff;
+	font-size: 24px !important;
+	font-weight: 300;
+
+}
+
+.hero-text .btn {
+	color: #fff !important;
+	border: 2px solid #fff !important;
+	border-radius: 5px !important;
+	padding: 12px 20px !important;
+    margin: 0 10px;
+	margin-top: 50px !important;
+
+}
+
+.hero-text .btn-cta {
+	background: #00909f;
+}
+
+.hero-text .btn-cta:hover, 
+.hero-text .btn-ghost:hover {
+	color: #00909f !important;
+    background: #ccc;
+}
+
+/*About section*/
+
+.about {
+	padding: 80px 0;
+	background-color: #000;
+}
+
+.lead h2 {
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.lead p {
+	color: #fff;
+	font-size: 16px;
+}
+
+.lead .blueline {
+	height: 2px;
+    background: #ff6d6d;
+    width: 20%;
+    display: block;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    line-height: 0.8;
+
+}
+
+.lead .btn-contact {
+	color: #fff;
+	background: #00909f;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 8px 30px;
+    margin: 0 10px;
+	margin-top: 25px;
+
+}
+
+.lead .btn-contact:hover {
+	color: #00909f !important;
+    background: #ccc;
+}
+
+.about img {
+	width: 60%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 5px solid #fff; 
+}
+
+/*service section*/
+
+.service {
+	padding: 80px 0;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/testi-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 650px;
+	background-attachment: fixed;
+}
+
+.service h2 {
+	font-size: 38px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2%;
+}
+
+.service .blueline {
+	height: 2px;
+    background: #ff6d6d;
+    width: 9%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7%;
+    line-height: 0.8;
+
+}
+
+.service .card {
+	width: 22rem;
+	height: 20rem;
+}
+
+.service .card-body {
+	text-align: center;
+	background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/testi-bg.jpg);
+	border: 1px solid #fff;
+}
+
+.service .card-body img {
+	width: 18%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.service .card-body h5 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.service .card-body p {
+	color: #fff;
+	font-weight: 300;
+}
+
+/*portfolio section*/
+
+.portfolio {
+	padding: 80px 0;
+	background:#000;
+}
+
+.portfolio h2 {
+	font-size: 38px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2%;
+}
+
+.portfolio .blueline {
+	height: 2px;
+    background: #ff6d6d;
+    width: 9%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    line-height: 0.8;
+
+}
+
+.portfolio .slide-menu {
+	text-align: center;
+	display: block;
+
+}
+.portfolio ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0 4%;
+	
+}
+
+.portfolio ul li {
+	display: inline-block;
+}
+
+.portfolio ul li .btn {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.portfolio ul li .btn:hover {
+	background: #ff6d6d;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: none;
+}
+
+.portfolio-img .card {
+	 max-width: 31.33%;
+	 flex: 0 0 31.33%;
+	 margin: 10px;
+	 padding: 0;
+	 margin-top: 10px;
+	 position: relative;
+	 border: 0;
+}
+
+.portfolio-img .card .card-body {
+	padding: 0;
+	overflow: hidden;
+}
+
+.portfolio-img .card .card-body img {
+	padding: 0;
+	border-radius: 0;
+	transition: all 0.3s linear;
+}
+
+.portfolio-img .card .card-body .hover {
+	width: 100%;
+	height: 100%;
+	background: rgba(50, 151, 238, 0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.3s linear ease-in;
+}
+
+.portfolio-img .card .card-body .hover h3 {
+	font-size: 18px;
+  	text-align: center;
+  	font-weight: 600;
+  	color: #fff;
+  	margin-top: 20%;
+}
+
+.portfolio-img .card .card-body .hover p {
+	font-size: 15px;
+	text-align: center;
+  	padding: 0 15%;
+  	color: #fff;
+  	margin-bottom: 5%;
+}
+
+.portfolio-img .card .card-body .hover ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin-left: 8%;
+	border: 0;
+}
+
+.portfolio-img .card .card-body .hover ul li {
+	display: inline;
+}
+
+.portfolio-img .card .card-body .hover img {
+	width: 12%;
+	padding: 2%;
+	background: rgba(86, 160, 220, 0.8);
+	margin: 0 1%;
+	border-radius: 50%;
+    transition: all 0.2s linear;
+}
+
+.portfolio-img .card .card-body:hover img {
+	transform: scale(1.3);
+}
+
+.portfolio-img .card .card-body:hover .hover {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.portfolio-img .card .card-body:hover .hover img {
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+.portfolio-img .card .card-body .hover img:hover {
+	border: 2px solid #fff;
+}
+
+/*contact section*/
+
+.contact {
+	padding: 80px 0;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/testi-bg.jpg);
+}
+
+.contact .input h3 {
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.contact .input .btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background: #00909f;
+	border: 2px solid #fff;
+	padding: 7px 40px;
+    margin: 0 10px;
+	margin-top: 7px;
+}
+
+.contact .input .btn-custom:hover {
+	color: #00909f;
+    background: #ccc;
+}
+
+.contact .input .form-control {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/testi-bg.jpg);
+}
+
+.contact .input .form-control:hover {
+	border: 2px solid #00867d;
+	box-shadow: none;
+}
+
+.connect .input .form-control:focus {
+        box-shadow: inset -2px -1px 0px 0px #2f88fc;
+        outline: none;
+}
+
+
+.contact .info {
+	padding: 0 8%;
+
+}
+
+
+.contact .info h3 {
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.contact .info ul {
+	list-style: none;
+	padding: 0;
+}
+
+.contact .info ul li {
+	font-size: 13px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.contact .info img {
+	width: 110%;
+	transition: all 0.2s linear;
+}
+
+
+.contact .info img:hover {
+    transform: scale(0.98);
+}
+
+
+
+/*Responsive Media query*/
+
+@media (max-width: 1200px) {
+		.navbar .nav-item {
+		padding: 1.2rem 0.7rem;
+	}
+}
+
+
+@media (max-width: 992px) {
+
+
+.navbar .navbar-brand {
+	color: #fff;
+	padding: 2%;
+}
+
+.navbar .nav-item {
+	padding: 1.4rem 1rem;
+	box-sizing: content-box;
+	letter-spacing: 1px;
+}
+
+.lead p {
+	font-size: 18px;
+}
+
+.about img {
+	width: 75%;
+}
+
+.service .card {
+	width: 18rem;
+	height: 22rem;
+}
+
+.service .card-body h5 {
+	font-size: 20px;
+}
+
+.portfolio-img .card {
+	 max-width: 30.3333%;
+	 flex: 0 0 30.3333%;
+}
+
+.contact .input {
+   padding: 0 4%;
+}
+
+
+.contact .info {
+	padding: 0;
+}
+
+.contact .info img {
+	width: 100%;
+	transition: all 0.2s linear;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+.navbar .nav-item {
+	font-size: 10px;
+	padding: 1.4rem 0.60rem;
+}
+
+.hero-text {
+	margin-bottom: 20%;
+}
+
+.hero-text h1 {
+	font-size: 40px;
+}
+
+.hero-text .blueline {
+    margin-bottom: 20px;
+}
+
+
+.hero-text p {
+	font-size: 17px;
+}
+
+.hero-text .btn {
+	padding: 8px 10px;
+	margin-top: 48px !important;
+
+}
+
+.lead h2 {
+	font-size: 36px;
+}
+
+.lead p {
+	font-size: 10px;
+}
+
+.lead .btn-contact {
+	padding: 5px 22px;
+    margin: 0;
+	margin-top: 5px;
+}
+
+.about img {
+	width: 80%;
+}
+
+.service .card {
+	width: 14rem;
+	height: 21rem;
+}
+
+.service .card-body h5 {
+	font-size: 16px;
+}
+
+.service .card-body p {
+	font-size: 14px;
+}
+
+.portfolio-img .card {
+	 max-width: 30.33%;
+	 flex: 0 0 30.33%;
+}
+}
+
+
+@media (max-width: 576px) {	
+
+.navbar .navbar-brand {
+	padding: 0;
+}
+
+.navbar .nav-item {
+	padding: 1.4rem 0rem;
+	font-size: 7px;
+}
+
+.hero-text {
+	margin-bottom: 20%;
+}
+
+.hero-text h1 {
+	font-size: 36px;
+	margin-bottom: 16px;
+}
+
+.hero-text .blueline {
+    width: 36%;
+}
+
+.hero-text p {
+	font-size: 17px;
+}
+
+.hero-text .btn {
+	padding: 6px 9px;
+    margin: 0 5px;
+	margin-top: 41px;
+
+}
+
+.lead h2 {
+	padding: 0 32%;
+	color: #fff;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.lead p {
+	padding: 0 15%;
+	font-size: 14px;
+}
+
+.lead .blueline {
+	margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+    line-height: 0.8;
+
+}
+
+.lead .btn-contact {
+	padding: 5px 30px;
+    margin-left: 32%;
+	margin-top: 25px;
+}
+
+.about img {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 13%;
+}
+
+.service h2 {
+	font-size: 38px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2%;
+}
+
+.service .card {
+	width: 21rem;
+	height: 20rem;
+	display: block;
+	margin: 10px auto;
+}
+
+.service .card-body h5 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.service .card-body p {
+	color: #fff;
+	font-weight: 300;
+}
+
+.portfolio-img .card {
+	 max-width: 70.33%;
+	 flex: 0 0 70.33%;
+	 display: block;
+	 margin: 10px auto;
+}
+
+.contact .info {
+	padding: 0 8%;	
+}
+
+.contact .info h3 {
+	margin-top: 12%;
+}
+}
